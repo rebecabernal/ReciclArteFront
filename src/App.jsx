@@ -1,10 +1,11 @@
-import React from "react";
-import ImgFavorites from "./components/img_favorites/img_favorites.jsx"; 
+import './App.css'
+import MainButton from './components/mainButton/MainButton'
+import HomePage from './pages/homepage/Homepage'
 
 function App() {
   return (
     <div>
-      <ImgFavorites />
+      <HomePage />
     </div>
   );
 }
