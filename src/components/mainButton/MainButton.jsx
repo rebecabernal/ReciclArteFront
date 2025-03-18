@@ -1,8 +1,16 @@
 import React from 'react'
+import { Link } from 'react-router'
 
-const MainButton = () => {
+
+function MainButton (props){
   return (
-    <div>MainButton</div>
+    <>
+    {/* <Link to={props.link}> */}
+    <button className="main-button" onClick={props.onClick} disabled={props.disabled}>
+        {props.text}
+    </button>
+    {/* </Link> */}
+    </>
   )
 }
 

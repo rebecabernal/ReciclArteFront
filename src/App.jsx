@@ -1,12 +1,12 @@
 import './App.css'
+import MainButton from './components/mainButton/MainButton'
+import HomePage from './pages/homepage/Homepage'
 
 function App() {
 
   return (
     <>
-      <h1>ReciclArte</h1>
-      <div className="card">
-      </div>
+    <HomePage/>
     </>
   )
 }
