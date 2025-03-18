@@ -5,14 +5,14 @@ const Navbar = () => {
   return (
     
     <>
-    <div>
+    <div className='navbar'>
 
     <MainButton
-      text='Buscar' />
+      text='SUBIR ARTICULO' />
     <MainButton
-        text='Filtrar' />
+        text='ARTICULOS SUBIDOS' />
     <MainButton
-        text='Inicio' />
+        text='NOTIFICACIONES' />
     
     </div>
     </>    
