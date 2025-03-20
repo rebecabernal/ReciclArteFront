@@ -1,3 +1,7 @@
-/* .main-button {
-    background-color: aqua;
-} */
+.main-button {
+    width: max-content;
+    background-color: white;
+    padding: 10px 20px;
+    border-radius: 39px;
+    cursor: pointer;
+}

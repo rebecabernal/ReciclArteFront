@@ -1,12 +1,12 @@
 import React from 'react'
-import './HomePage.css'
+import './ProductsPage.css'
 
-function HomePage () {
+function ProductsPage () {
 
   return (
       <>
     <main className='main-section'>
-      <h3>Articulos en tu zona</h3>
+      <h3>Tus Productos</h3>
       <section className='products-container'>
     {/* llamar el componente PRODUCT CARD */}
       </section>
@@ -15,4 +15,4 @@ function HomePage () {
   )
 }
 
-export default HomePage
+export default ProductsPage

@@ -1,18 +1,19 @@
 import React from 'react'
-import './HomePage.css'
+import './Loginpage.css'
 
-function HomePage () {
+function LoginPage () {
 
   return (
       <>
     <main className='main-section'>
-      <h3>Articulos en tu zona</h3>
+      <h2>Bienvenido/a/e</h2>
+      <h3>Login</h3>
       <section className='products-container'>
-    {/* llamar el componente PRODUCT CARD */}
+    {/* llamar el componente FORMULARIO DE LOGIN*/}
       </section>
     </main>
       </>
   )
 }
 
-export default HomePage
+export default LoginPage

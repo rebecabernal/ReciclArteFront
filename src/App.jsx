@@ -1,3 +1,4 @@
+
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Register from './components/register/Register';
 import Login from './components/login/Login';
@@ -20,3 +21,4 @@ const App = () => {
 };
 
 export default App;
+
