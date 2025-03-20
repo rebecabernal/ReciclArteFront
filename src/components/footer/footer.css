@@ -1,18 +1,13 @@
 .footer{
-    color:  var(--blue-rec);
-    display: flex;
-    flex-direction: column;
+    display:flex;
+    background-color:--var(--blue-rec);
+    padding: 0.7rem;
     align-items: center;
-    justify-content: space-evenly;
-    padding: 1rem;
-    padding-bottom: 0%;
-    height: 18% ;
-    width: 10rem;
-    position:fixed;
-    bottom: 0;
+    justify-content: center;
 }
 
 .footer p{
-color: rgb(0, 0, 0);
-padding: 0.5rem;
+    color: black;
+    padding: 0rem;
+    margin: 0rem;
 }

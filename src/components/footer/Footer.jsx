@@ -1,17 +1,13 @@
 import React from 'react'
 import MainButton from './mainButton/MainButton.jsx'
+import './footer.css'
 
 const Footer = () => {
   return (
     
     <>
     <div className='footer'>
-
-    <MainButton
-      text='IDENTIFICATE' />
-   
-    <p>All Rights reserved. Copyright ReciclArte</p>
-
+      <p>All Rights reserved. Copyright ReciclArte</p>
     </div>
     </>    
   )
