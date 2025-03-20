@@ -1,5 +1,5 @@
 import React from 'react'
-import logo from '../../assets/images/logo.png'
+import logo from '../../assets/logo.png'
 import MainButton from '../mainButton/MainButton'
 import './header.css'
 

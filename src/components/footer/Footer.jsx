@@ -1,5 +1,5 @@
 import React from 'react'
-import MainButton from './mainButton/MainButton.jsx'
+
 import './footer.css'
 
 const Footer = () => {
