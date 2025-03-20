@@ -10,6 +10,8 @@ const Register = () => {
   const [password, setPassword] = useState('');
   const [error, setError] = useState(null);
   const { login } = useContext(AuthContext);
+  const navigate = useNavigate();
+  
 
   const handleSubmit = async (e) => {
     e.preventDefault();
@@ -19,6 +21,7 @@ const Register = () => {
       const userData = await register(username, email, password);
       login(userData);
       localStorage.setItem('user', JSON.stringify(userData));
+      navigate('/dashboard');
     } catch (err) {
       setError(err.message || 'Error en el registro.');
     }
