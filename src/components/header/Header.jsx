@@ -10,11 +10,11 @@ const Header = () => {
       <header className='header'>
         <div className='left'>
           <img src={logo} className='logo' />
-          <MainButton text="Home"/>    
-          <MainButton text="Subir Artículo"/>    
+          <MainButton text="Home" link='/' />    
+          <MainButton text="Subir Artículo" link='/prodregister' />    
         </div>
         <div className='right'>
-          <MainButton text="Iniciar Sesión"/>    
+          <MainButton text="Iniciar Sesión" link='/login' />    
         </div>        
       </header>
     </div>
