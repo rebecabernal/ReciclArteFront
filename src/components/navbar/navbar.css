@@ -1,14 +1,16 @@
-.navbar{
+nav{
     color:  var(--blue-rec);
-    border-radius: 1.5rem;
     display: flex;
-    justify-content: space-around;
     flex-direction: column;
     align-items: left;
     padding: 1rem;
-    padding-bottom: 15rem;
-    height: 60%;
+    height: 70%;
     width: 10rem;
-    position: fixed;
 
+}
+
+nav div.navbar{
+    justify-content: space-between;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
 }
