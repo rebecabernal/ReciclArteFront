@@ -10,7 +10,7 @@ const Navbar = () => {
     <MainButton
       text='SUBIR ARTICULO' />
     <MainButton
-        text='TUS ARTICULOS' />
+        text='ARTICULOS SUBIDOS' />
     <MainButton
         text='NOTIFICACIONES' />
     
