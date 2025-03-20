@@ -1,18 +1,14 @@
-import React from 'react'
-import './HomePage.css'
+import React from 'react';
+import CardContainer from '../../components/cardContainer/CardContainer';
+import './homepage.css';
 
-function HomePage () {
-
+const HomePage = () => {
   return (
-      <>
-    <main className='main-section'>
-      <h3 className='home_h3'>Articulos disponibles:</h3>
-      <section className='products-container'>
-    {/* llamar el componente PRODUCT CARD */}
-      </section>
-    </main>
-      </>
-  )
-}
+    <div className="homepage-container">
+      <h1>Todos los ítems disponibles</h1>
+      <CardContainer />
+    </div>
+  );
+};
 
-export default HomePage
+export default HomePage;
