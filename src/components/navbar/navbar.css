@@ -1,5 +1,5 @@
 .navbar{
-    color:  var(--blue-rec);
+    background-color:  var(--blue-rec);
     border-radius: 1.5rem;
     display: flex;
     justify-content: space-around;
@@ -10,5 +10,4 @@
     height: 60%;
     width: 10rem;
     position: fixed;
-
 }

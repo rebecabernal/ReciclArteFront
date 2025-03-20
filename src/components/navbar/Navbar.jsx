@@ -1,5 +1,6 @@
 import React from 'react'
-import MainButton from './mainButton/MainButton.jsx'
+import MainButton from '../mainButton/MainButton.jsx'
+import './navbar.css'
 
 const Navbar = () => {
   return (
@@ -8,14 +9,17 @@ const Navbar = () => {
     <div className='navbar'>
 
     <MainButton
-      text='SUBIR ARTICULO' />
+      text='SUBIR ARTICULO' 
+      link='/prodregister'/>
     <MainButton
-        text='TUS ARTICULOS' />
+      text='TUS ARTICULOS'
+      link='/prodpage'/>
     <MainButton
-        text='NOTIFICACIONES' />
+      text='NOTIFICACIONES'
+      link='/notifications'/>
     
     </div>
-    </>    
+    </>
   )
 }
 
