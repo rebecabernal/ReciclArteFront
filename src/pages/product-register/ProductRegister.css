@@ -1,0 +1,9 @@
+.main-section {
+    display: flex;
+    flex-direction: column;    
+}
+
+.productregister_h3 {
+    font-size: 40px;
+    margin-left: 10rem;
+}

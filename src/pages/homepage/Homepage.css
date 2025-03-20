@@ -1,4 +1,9 @@
 .main-section {
     display: flex;
-    flex-direction: column;
+    flex-direction: column;    
+}
+
+.home_h3 {
+    font-size: 40px;
+    margin-left: 10rem;
 }

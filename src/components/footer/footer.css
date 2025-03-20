@@ -1,7 +1,8 @@
 .footer{
     display:flex;
     background-color: var(--blue-rec);
-    color: var(--beige-rec);
+    color: var(-greyDark-rec);
+    font-weight: 600;
     padding: 0.7rem;
     align-items: center;
     justify-content: center;
