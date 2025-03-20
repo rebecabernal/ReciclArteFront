@@ -1,17 +1,22 @@
 import React from 'react'
 import logo from '../../assets/images/logo.png'
-import './header.css'
 import MainButton from '../mainButton/MainButton'
+import './header.css'
 
 
 const Header = () => {
   return (
     <div className='container'>
-        <header className='header'>
-            <img src={logo} className='logo' />
-            <MainButton  text="Home"
-            link='/'/>
-        </header>
+      <header className='header'>
+        <div className='left'>
+          <img src={logo} className='logo' />
+          <MainButton text="Home"/>    
+          <MainButton text="Subir Artículo"/>    
+        </div>
+        <div className='right'>
+          <MainButton text="Iniciar Sesión"/>    
+        </div>        
+      </header>
     </div>
   )
 }

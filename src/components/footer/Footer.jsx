@@ -1,5 +1,5 @@
 import React from 'react'
-import MainButton from '../mainButton/MainButton.jsx'
+import MainButton from './mainButton/MainButton.jsx'
 import './footer.css'
 
 const Footer = () => {
@@ -7,13 +7,7 @@ const Footer = () => {
     
     <>
     <div className='footer'>
-
-    <MainButton
-      text='IDENTIFICATE' 
-      link='/login'/>
-   
-    <p>All Rights reserved. Copyright ReciclArte</p>
-
+      <p>All Rights reserved. Copyright ReciclArte</p>
     </div>
     </>    
   )
