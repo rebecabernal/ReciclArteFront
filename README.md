@@ -1,4 +1,4 @@
-# ♻️ ReciclArte - Backend  
+# ♻️ ReciclArte - Frontend  
 
 ## 📖 Descripción  
 **ReciclArte** es una plataforma web donde los usuarios pueden donar artículos que ya no necesitan, promoviendo la **economía circular**.  
