@@ -1,12 +1,30 @@
-# React + Vite
+# ♻️ ReciclArte - Backend  
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 📖 Descripción  
+**ReciclArte** es una plataforma web donde los usuarios pueden donar artículos que ya no necesitan, promoviendo la **economía circular**.  
 
-Currently, two official plugins are available:
+Este repositorio contiene el **frontend** del proyecto, desarrollado con **React.js**.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## 🛠️ Tecnologías utilizadas  
+- **React.js**  
+- **JavaScript**  
+- **HTML & CSS**  
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+### 🔗 Información adicional  
+🎨 **Código fuente:** [ReciclArte Frontend](https://github.com/rebecabernal/ReciclArteFront)  
+📂 **Código fuente Backtend:** [ReciclArte Backend](https://github.com/Paola077/reciclArte_backend)  
+
+### 👥 **Equipo de Desarrollo**  
+
+#### 🎨 Frontend (FE)  
+- **Priscila Guillen** - [pguillen.oliv@gmail.com](mailto:pguillen.oliv@gmail.com)  
+- **Ana Castro** - [cuyssi@hotmail.com](mailto:cuyssi@hotmail.com)  
+- **Rebeca Bernal** - [rebecabernalmesa@gmail.com](mailto:rebecabernalmesa@gmail.com)  
+#### 📂 Backend (BE)  
+- **Paola Perdomo** - [paolaperdomo079@gmail.com](mailto:paolaperdomo079@gmail.com)  
+- **Jesús Enjamio Barcena** - [jenjamiob@gmail.com](mailto:jenjamiob@gmail.com)  
+- **Grigory Vladimiro** - [grigori.vladimiro@gmail.com](mailto:grigori.vladimiro@gmail.com)  
