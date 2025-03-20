@@ -16,3 +16,4 @@ const Card = ({ item, onReserve, onDelete }) => {
 };
 
 export default Card;
+
