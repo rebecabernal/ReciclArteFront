@@ -3,3 +3,8 @@
   padding: 2rem;
 }
 
+.pages-section{
+  display: flex;
+  margin-left: 5rem;
+}
+
