@@ -1,13 +1,17 @@
 .footer{
     display:flex;
-    background-color:--var(--blue-rec);
+    background-color: var(--blue-rec);
+    color: var(--beige-rec);
     padding: 0.7rem;
     align-items: center;
     justify-content: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 5%;
 }
 
 .footer p{
-    color: black;
-    padding: 0rem;
-    margin: 0rem;
+padding: 0rem;
+margin: 0rem;
 }

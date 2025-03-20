@@ -1,13 +1,16 @@
 .main-button {
     display: flex;
     justify-content: center;
+    align-items: center;
     background-color: #93e4ff;
+    color: var(--greyDark-rec);
     padding: 0.2rem;
     padding-left: 0.7rem;
-    padding-right: 0.7rem;
-    border-radius: 2rem;
+    padding-right: 0.7rem; 
     margin: 2rem;
-    min-width: 4rem;
+    width: 4rem;
+    height: 2.5rem;
     width: max-content;
-    cursor: pointer;
+    cursor: pointer;    
 }
+
