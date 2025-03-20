@@ -36,7 +36,7 @@ Luego, abre http://localhost:5173 en tu navegador para ver la aplicación en fun
 
 ---
 
-⚙️ Funciones principales  
+## ⚙️ Funciones principales  
 ✔️ Explorar artículos: los usuarios pueden ver una lista de artículos disponibles para donar.  
 ✔️ Publicar un artículo: los usuarios pueden subir productos con nombre, descripción, imágenes y ubicación.  
 ✔️ Gestionar artículos: editar y eliminar artículos publicados.  
