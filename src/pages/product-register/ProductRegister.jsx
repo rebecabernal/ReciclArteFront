@@ -23,8 +23,8 @@ const ProductRegister = () => {
 
   return (
     <div className="register-product-container">
-      <h2>Subir nuevo ítem</h2>
       <form onSubmit={handleSubmit}>
+      <h2>Subir nuevo artículo</h2>
         <input
           type="text"
           placeholder="Título"

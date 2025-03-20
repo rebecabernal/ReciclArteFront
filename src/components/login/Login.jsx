@@ -9,7 +9,6 @@ const Login = () => {
   const [password, setPassword] = useState('');
   const [error, setError] = useState(null);
   const { login } = useContext(AuthContext);
-  //const navigate = useNavigate();
 
   const handleSubmit = async (e) => {
     e.preventDefault();
@@ -19,7 +18,6 @@ const Login = () => {
       const userData = await loginService(email, password);
       login(userData);
       localStorage.setItem('user', JSON.stringify(userData));
-      //navigate('/dashboard'); // Cambia la ruta según tu app
     } catch (err) {
       setError(err.message || 'Error al iniciar sesión.');
     }

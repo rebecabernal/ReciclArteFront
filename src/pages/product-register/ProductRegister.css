@@ -3,11 +3,15 @@
     flex-direction: column;
     align-items: center;
     padding: 40px;
-    background-color: var(--gray-rec);
+    background-color: var(--grey-rec);
+    justify-content: center;
+    height: 69vh;
   }
   
   .register-product-container h2 {
-    margin-bottom: 20px;
+    margin-bottom: 45px;
+    color: var(--greyDark-rec);
+    font-size: 2em; 
   }
   
   .register-product-container form {
@@ -15,11 +19,11 @@
     flex-direction: column;
     gap: 15px;
     width: 100%;
-    max-width: 400px;
+    max-width: 500px;
     background: #fff;
-    padding: 30px;
+    padding: 48px;
     border-radius: 8px;
-    box-shadow: 0px 2px 8px var(--greyDark-rec);
+    height: 45vh;
   }
   
   .register-product-container input,
@@ -27,11 +31,12 @@
     padding: 10px;
     border: 1px solid #ccc;
     border-radius: 4px;
+    font-size: 1.1em;
   }
   
   .register-product-container button {
     padding: 12px;
-    background-color: #38a3e3;
+    background-color: var(--blue-rec);
     color: #fff;
     border: none;
     border-radius: 4px;
@@ -42,3 +47,6 @@
     background-color: #2d85bb;
   }
   
+  h2 {
+    text-align: center;
+  }

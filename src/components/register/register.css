@@ -5,9 +5,9 @@
   padding: 0;
   margin: 0;
   width: 100vw;
-  height: 75vh;
+  height: 79vh;
   overflow: hidden;
-  margin-top: 1rem;
+  background-color: var(--grey-rec);
 }
 
 .register-content {
@@ -29,8 +29,8 @@
   width: 100%; 
   max-width: 500px;   
   border-radius: 8px; 
-  padding: 40px; 
-  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);  display: flex;
+  padding: 16px; 
+  display: flex;
   flex-direction: column; 
   align-items: center;
   gap: 20px; 
@@ -38,8 +38,8 @@
 
 .register-container h2 {
   text-align: center; 
-  font-size: 2.5em; 
-  color: var(--blue-rec); 
+  font-size: 2em; 
+  color: var(--greyDark-rec); 
   margin-top: .5rem;
 }
 
@@ -63,7 +63,7 @@
 .register-container button {
   width: 80%;  
   padding: 16px; 
-  background-color: grey; 
+  background-color: var(--blue-rec); 
   color: rgb(243, 235, 235); 
   font-weight: 600; 
   cursor: pointer; 
@@ -92,8 +92,8 @@
   text-align: center; 
   margin-top: 25px; 
   font-size: 1em; 
-  color: var(--blue-rec); 
-  text-decoration: none; 
+  color: var(--greyDark-rec); 
+  text-decoration:underline; 
 }
 
 
