@@ -45,7 +45,7 @@ const ProductRegister = () => {
           onChange={(e) => setImgUrl(e.target.value)}
           required
         />
-        <button type="submit">Subir Item</button>
+        <button type="submit">Subir</button>
       </form>
       {message && <p>{message}</p>}
     </div>
