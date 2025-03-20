@@ -11,6 +11,35 @@ Este repositorio contiene el **frontend** del proyecto, desarrollado con **React
 - **React.js**  
 - **JavaScript**  
 - **HTML & CSS**  
+---
+
+## 🚀 Cómo ejecutar el proyecto  
+### 1️⃣ **Clonar el repositorio**  
+```bash
+git clone https://github.com/rebecabernal/ReciclArteFront.git
+cd ReciclArteFront
+```
+  
+### 2️⃣ **Instalar dependencias**
+Ejecutar el siguiente comando para instalar todas las dependencias necesarias:
+```bash
+npm install
+```
+
+### 3️⃣ **Iniciar el servidor de desarrollo**
+Para ejecutar la aplicación en modo desarrollo, usa:
+```bash
+npm run dev
+```
+Luego, abre http://localhost:5173 en tu navegador para ver la aplicación en funcionamiento.
+---
+
+⚙️ Funciones principales
+✔️ Explorar artículos: los usuarios pueden ver una lista de artículos disponibles para donar.
+✔️ Publicar un artículo: los usuarios pueden subir productos con nombre, descripción, imágenes y ubicación.
+✔️ Gestionar artículos: editar y eliminar artículos publicados.
+✔️ Reservar artículos: los interesados pueden marcar un artículo como reservado.
+✔️ Autenticación: Inicio de sesión y registro de usuarios.
 
 ---
 ## 📂 **Estructura del proyecto**  
