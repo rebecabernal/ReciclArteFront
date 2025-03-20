@@ -1,4 +1,10 @@
-.main-section {
-    display: flex;
-    flex-direction: column;
-}
+.homepage-container {
+    padding: 20px;
+    background-color: #f5f5f5;
+  }
+  
+  .homepage-container h1 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
