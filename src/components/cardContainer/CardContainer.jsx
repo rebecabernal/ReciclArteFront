@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react';
 import { getAllItems, deleteItem, reserveItem } from '../../services/ItemService';
-import Card from '../card/Card';
+import Card from '../card/card';
 import './cardcontainer.css';
 
 const CardContainer = () => {
