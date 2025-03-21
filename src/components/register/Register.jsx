@@ -21,7 +21,7 @@ const Register = () => {
       const userData = await register(username, email, password);
       login(userData);
       localStorage.setItem('user', JSON.stringify(userData));
-      navigate('/dashboard');
+      navigate('/');
     } catch (err) {
       setError(err.message || 'Error en el registro.');
     }

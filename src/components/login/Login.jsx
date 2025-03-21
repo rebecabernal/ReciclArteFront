@@ -18,7 +18,7 @@ const Login = () => {
       const userData = await loginService(email, password);
       login(userData);
       localStorage.setItem('user', JSON.stringify(userData));
-      navigate('/homepage');
+      navigate('/');
     } catch (err) {
       setError(err.message || 'Error al iniciar sesión.');
     }
