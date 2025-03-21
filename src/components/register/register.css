@@ -45,6 +45,7 @@
 
 .register-container input {
   width: 100%; 
+  color: var(--greyDark-rec);
   padding: 14px; 
   font-size: 1.1em; 
   border: 1px solid #D8D8D8; 
